@@ -25,6 +25,7 @@ IoU metric: bbox
 
 ## Example
 To see how to load the model and compute the performance metrics, look at the evaluate.ipynb notebook
+![detected bear](bear.jpg)
 
 ## References
 [1] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
