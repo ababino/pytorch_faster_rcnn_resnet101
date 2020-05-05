@@ -1,6 +1,6 @@
-# Torchvision Faster R-CNN Pretrained on the COCO dataset
+# Torchvision Faster R-CNN Pre-trained on the COCO dataset
 
-This repository aims to showcase a pretrained model of the Faster RCNN detector[1] trained on the COCO dataset[2]. The implementation is the one in [vision](https://github.com/pytorch/vision/blob/master/torchvision/models/detection/faster_rcnn.py). The training was done using the scripts from the [detection folder in the vision repository](https://github.com/pytorch/vision/tree/master/references/detection). The model was trained in a rig with 4 GPUs. The only change to the default parameters was the number of images per GPU, that was set to 4 to match a batch size of 16 images.
+This repository aims to showcase a model of the Faster RCNN detector[1] pre-trained on the COCO dataset[2]. The implementation is the one in [vision](https://github.com/pytorch/vision/blob/master/torchvision/models/detection/faster_rcnn.py). The training was done using the scripts from the [detection folder in the vision repository](https://github.com/pytorch/vision/tree/master/references/detection). The model was trained in a rig with 4 GPUs. The only change to the default parameters was the number of images per GPU, that was set to 4 to match a batch size of 16 images.
 
 The pretrianed model is hosted [here](https://ababino-models.s3.amazonaws.com/resnet101_7a82fa4a.pth).
 
